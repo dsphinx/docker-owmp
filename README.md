@@ -17,10 +17,10 @@ Note this document is based on the standard first up of docker (192.168.99.100) 
 
 Go to your terminal and Clone or fork the project.
 
-cd /www
-git clone https://github.com/dsphinx/docker-owmp.git
-cd docker-owmp/
-docker-compose up -d
+cd /www <br/>
+git clone https://github.com/dsphinx/docker-owmp.git <br/>
+cd docker-owmp/ <br/>
+docker-compose up -d  <br/>
 
 
 Now open your browser and go to: `http://host1.local/`
