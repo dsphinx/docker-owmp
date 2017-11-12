@@ -1,5 +1,8 @@
-# PHP 7, Apache, MySQL (LAMP) docker environment
-Docker container with php 7 on Apache (httpd) MySQL. Based on an docker-compose.yml file
+# PHP 7, Apache, MySQL (LAMP) docker environment  - for Parrot Tunes (Open Web Media Library and Player)
+
+
+Docker container with php 7 on Apache (httpd) MySQL. https://bitbucket.org/rocean/owmp
+Based on an docker-compose.yml file
 
 
 # Requirements
@@ -14,13 +17,11 @@ Note this document is based on the standard first up of docker (192.168.99.100) 
 
 Go to your terminal and Clone or fork the project.
 
+cd /www
+git clone https://github.com/dsphinx/docker-owmp.git
+cd docker-owmp/
+docker-compose up -d
 
-- browse into `cd docker-php7-httpd-apache2-mysql`
-- open a DOCKER terminal 
-- `sudo vi /etc/hosts`
-- add or replace IP with your docker IP: `192.168.99.100 host1.local`
-- Type in the docker terminal: `docker-compose build`
-- Type in the docker terminal: `docker-compose up -d`
 
 Now open your browser and go to: `http://host1.local/`
 in your browser you should see a PHP 7 info page. 
